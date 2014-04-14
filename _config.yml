@@ -1,0 +1,51 @@
+# Dependencies
+markdown:	redcarpet
+pygments:	true
+
+# Permalinks
+permalink:	/:title
+
+# Setup
+title:		Syl.io
+tagline:	'Startup, coding and web marketing'
+description:	'I do various things at <a href="http://www.pusher.com">Pusher</a>.'
+url:		http://sylg.github.io
+# commentsystem:	google
+# disqus:		example
+
+author:
+  name:		'Sylvain Giuliani'
+  url:		https://google.com/+SylvainGiuliani
+
+paginate:	5
+
+# Custom vars
+icon:		/assets/images/explode_icon.png
+cover:		/assets/images/cover2.png
+
+social:
+  - icon:	twitter
+    url:	https://twitter.com/copypastaa
+    desc:	Follow me on twitter
+
+  - icon:	github
+    url:	https://github.com/sylg
+    desc:	Fork me on github
+
+  - icon: googleplus-alt
+    url:  https://google.com/+SylvainGiuliani
+    desc: Add me on Google+
+
+  - icon:	feed
+    url:	http://sylg.github.io/atom.xml
+    desc:	Subscribe to my feed
+    
+menu:
+  - title:	Home
+    url:	/
+    
+  - title:	About
+    url:	/about
+  
+  - title:  Archive
+    url:  /archive
