@@ -6,10 +6,10 @@ pygments:	true
 permalink:	/:title
 
 # Setup
-title:		Syl.io
+title:		DoTWell.io
 tagline:	'Startup, coding and web marketing'
 description:	'I do various things at <a href="http://www.pusher.com">Pusher</a>.'
-url:		http://sylg.github.io
+url:		http://dotwell.io
 # commentsystem:	google
 # disqus:		example
 
@@ -37,7 +37,7 @@ social:
     desc: Add me on Google+
 
   - icon:	feed
-    url:	http://sylg.github.io/atom.xml
+    url:	http://dotwell.io/atom.xml
     desc:	Subscribe to my feed
     
 menu:
