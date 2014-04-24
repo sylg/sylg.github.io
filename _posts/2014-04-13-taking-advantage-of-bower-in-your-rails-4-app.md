@@ -12,7 +12,7 @@ comments: true
 
 If you haven't heard about it yet, [Bower](http://bower.io/) is a powerful *"package manager for the web"* created by non other than the great peeps over at Twitter. But what can Bower actually do for you and why would you want it inside your Rails app?
 
-Since you are already using Rails, you are familiar with the whole adding gem to your Gemfile and firing off `bundle install`. If you want to update a gem or all of them you simple run `bundle update` or `bundle update <gem name>` and you are good to go. But what if you want to upgrade Bootstrap, Angular, Jquery or any other client side libraries or frameworks? Well shit.
+Since you are already using Rails, you are familiar with the whole adding gem to your Gemfile and firing off `bundle install`. If you want to update a gem or all of them you simply run `bundle update` or `bundle update <gem name>` and you are good to go. But what if you want to upgrade Bootstrap, Angular, Jquery or any other client side libraries or frameworks? Well shit.
 
 Bower, through its command line interface enables you to search, install, update and uninstall web assets like JavaScript, HTML and CSS. It also has it's own `Gemfile` & `Gemfile.lock` called `bower.json`.
 
@@ -40,6 +40,7 @@ After reading terms like *CSS*, *Javascript* and *HTML*, you are already having 
 
 
 ### 1. Install Bower
+
 Since you are already running Rails 4, you've already got Node and NPM up and running on your machine. If not, [Google is your friend](http://lmgtfy.com/?q=install+node+and+npm). 
 
 To install Bower simply run:
@@ -75,20 +76,20 @@ Depending on your answers, your `bower.json` should looks something like this:
 
 ```json
 {
-  name: 'BowerAndRails',
-  version: '0.0.1',
-  authors: [
-    'Syl <nop@nope.com>'
+  "name": "BowerAndRails",
+  "version": "0.0.1",
+  "authors": [
+    "Syl <nop@nope.com>"
   ],
-  description: 'Tutorial about Bower and Rails',
-  license: 'MIT',
-  homepage: 'http://mycoolhomepage.com',
-  ignore: [
-    '**/.*',
-    'node_modules',
-    'bower_components',
-    'test',
-    'tests'
+  "description": "Tutorial about Bower and Rails",
+  "license": "MIT",
+  "homepage": "http://mycoolhomepage.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
   ],
   "dependencies": {
     "angular": "~1.2.16"
